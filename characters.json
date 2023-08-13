@@ -1,55 +1,43 @@
 {
     "characters": [
         {
-            "name": "kuroko",
-            "height": 160,
+            "name": "白井黑子 kuroko",
+            "height": 152,
             "imageSrc": "images/kuroko.png",
-            "info": "姐姐大人"
+            "info": "ジャッジメントですの(夹击妹抖desino)!  我乃风纪委员!"
         },
         {
-            "name": "murasame",
-            "height": 150,
-            "imageSrc": "images/murasame.png"
+            "name": "御坂美琴 misaka mikoto",
+            "height": 161,
+            "imageSrc": "images/mikoto.webp",
+            "info": "君の指先を舞ってる電光は、私の一生変わらない信仰であり、このレールガンだけが永遠に生きてる！外号: 哔哩哔哩（ビリビリ）."
         },
         {
-            "name": "kuroko",
+            "name": "丛雨 ムラサメ murasame",
+            "height": 146,
+            "imageSrc": "images/murasame.png",
+            "info": "500岁丛雨会不熟练地使用古日语的语法念完版权声明，并且在念完后哀叹一句“真长啊，念得累死了”。"
+        },
+        {
+            "name": "茉子 mako",
+            "height": 167,
+            "imageSrc": "images/mako.png"
+        },
+        {
+            "name": "小春 koharu",
             "height": 160,
-            "imageSrc": "images/kuroko.png"
+            "imageSrc": "images/koharu.png"
         },
         {
-            "name": "murasame",
-            "height": 150,
-            "imageSrc": "images/murasame.png"
+            "name": "芳乃 yoshino",
+            "height": 163,
+            "imageSrc": "images/yoshino.png"
         },
         {
-            "name": "kuroko",
-            "height": 160,
-            "imageSrc": "images/kuroko.png"
-        },
-        {
-            "name": "murasame",
-            "height": 150,
-            "imageSrc": "images/murasame.png"
-        },
-        {
-            "name": "kuroko",
-            "height": 160,
-            "imageSrc": "images/kuroko.png"
-        },
-        {
-            "name": "murasame",
-            "height": 150,
-            "imageSrc": "images/murasame.png"
-        },
-        {
-            "name": "kuroko",
-            "height": 160,
-            "imageSrc": "images/kuroko.png"
-        },
-        {
-            "name": "murasame",
-            "height": 150,
-            "imageSrc": "images/murasame.png"
+            "name": "宁宁 nene",
+            "info": "圆桌骑士",
+            "height": 163,
+            "imageSrc": "images/nene.png"
         }
     ]
 }
