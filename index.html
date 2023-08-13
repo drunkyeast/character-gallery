@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Character Gallery</title>
+</head>
+
+<body>
+    <h1 style=" text-align: center;">最喜欢的角色图鉴</h1>
+    <div id="characterContainer"></div>
+    <div id="tooltip">
+        <h1 id="tooltip-title" style=" text-align: center;"></h1>
+        <h2 id="tooltip-content" style=" text-align: center;"></h2>
+    </div>
+
+    <script>
+        // 获取角色数据
+        fetch('characters.json')
+            .then(response => response.json())
+            .then(data => {
+                const characterContainer = document.getElementById('characterContainer');
+                const characters = data.characters;
+
+                // 遍历角色数据并在characterContainer > characterDiv > characterImage, characterInfo
+                characters.forEach(character => {
+                    // 创建characterDiv, 并用character类来标识.
+                    const characterDiv = document.createElement('div');
+                    characterDiv.classList.add('character');
+
+                    // 创建characterImage, 并用character-image类标识. 像素为身高 * 3
+                    const characterImage = document.createElement('img');
+                    characterImage.classList.add('character-image');
+                    characterImage.src = character.imageSrc;
+                    characterImage.alt = character.name;
+                    characterImage.style.height = `${character.height * 3}px`;
+
+                    // 添加鼠标悬停事件
+                    characterImage.addEventListener('mouseover', () => {
+                        const tooltipTitle = document.getElementById('tooltip-title');
+                        const tooltipContent = document.getElementById('tooltip-content');
+
+                        tooltipTitle.textContent = character.name;
+                        tooltipContent.textContent = character.info;
+                        tooltip.style.display = 'block';
+                    });
+
+                    // characterImage.addEventListener('mouseout', () => {
+                    //     const tooltip = document.getElementById('tooltip');
+                    //     tooltip.style.display = 'none';
+                    // });
+
+                    // 监听鼠标滚轮事件
+                    characterContainer.addEventListener('wheel', (e) => {
+                        characterContainer.scrollLeft += e.deltaY;
+                        e.preventDefault(); // 阻止默认滚动行为
+                    });
+
+
+                    characterDiv.appendChild(characterImage);
+                    characterContainer.appendChild(characterDiv);
+                });
+            });
+    </script>
+</body>
+
+</html>

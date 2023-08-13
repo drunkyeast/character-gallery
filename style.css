@@ -1,0 +1,57 @@
+#scroll-horizontally {
+    display: flex;
+    padding-bottom: 20px;
+    /* Scroll bar */
+    height: 520px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#characterContainer {
+    display: flex;
+    align-items: flex-end;
+    height: 600px;
+    white-space: nowrap;
+    background-image: url("images/bg.png");
+    background-repeat: repeat;
+    overflow: auto;
+    /* 添加滚动条，当内容超过容器高度时 */
+}
+
+.character {
+    margin: 0;
+    /* 设置边距为0，消除边距 */
+}
+
+.character-image {
+    opacity: 50%;
+}
+
+/* 在 style.css 中添加以下 CSS 规则 */
+/* 在 style.css 中添加以下 CSS 规则 */
+
+.character-image:hover {
+    opacity: 100%;
+    animation: jump 1s ease 1;
+    /* 鼠标悬停时应用跳动动画 */
+}
+
+@keyframes jump {
+
+    0%,
+    50%,
+    100% {
+        transform: translateY(0);
+        /* 起始和结束状态，不进行位移 */
+    }
+
+    25% {
+        transform: translateY(-50px);
+        /* 第一次跳跃的高度 */
+    }
+
+    75% {
+        transform: translateY(-25px);
+        /* 第二次跳跃的高度 */
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "characters": [
+        {
+            "name": "kuroko",
+            "height": 160,
+            "imageSrc": "images/kuroko.png",
+            "info": "姐姐大人"
+        },
+        {
+            "name": "murasame",
+            "height": 150,
+            "imageSrc": "images/murasame.png"
+        },
+        {
+            "name": "kuroko",
+            "height": 160,
+            "imageSrc": "images/kuroko.png"
+        },
+        {
+            "name": "murasame",
+            "height": 150,
+            "imageSrc": "images/murasame.png"
+        },
+        {
+            "name": "kuroko",
+            "height": 160,
+            "imageSrc": "images/kuroko.png"
+        },
+        {
+            "name": "murasame",
+            "height": 150,
+            "imageSrc": "images/murasame.png"
+        },
+        {
+            "name": "kuroko",
+            "height": 160,
+            "imageSrc": "images/kuroko.png"
+        },
+        {
+            "name": "murasame",
+            "height": 150,
+            "imageSrc": "images/murasame.png"
+        },
+        {
+            "name": "kuroko",
+            "height": 160,
+            "imageSrc": "images/kuroko.png"
+        },
+        {
+            "name": "murasame",
+            "height": 150,
+            "imageSrc": "images/murasame.png"
+        }
+    ]
+}
