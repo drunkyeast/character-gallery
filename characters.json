@@ -16,7 +16,8 @@
             "name": "丛雨 ムラサメ murasame",
             "height": 146,
             "imageSrc": "images/murasame.png",
-            "info": "500岁丛雨会不熟练地使用古日语的语法念完版权声明，并且在念完后哀叹一句“真长啊，念得累死了”。"
+            "info": "500岁丛雨会不熟练地使用古日语的语法念完版权声明，并且在念完后哀叹一句“真长啊，念得累死了”。",
+            "audioSrc": "audios/murasame.ogg"
         },
         {
             "name": "茉子 mako",
@@ -26,7 +27,8 @@
         {
             "name": "小春 koharu",
             "height": 160,
-            "imageSrc": "images/koharu.png"
+            "imageSrc": "images/koharu.png",
+            "audioSrc": "audios/koharu.ogg"
         },
         {
             "name": "芳乃 yoshino",

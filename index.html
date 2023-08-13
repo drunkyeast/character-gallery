@@ -38,19 +38,30 @@
                     characterImage.style.height = `${character.height * 3}px`;
 
                     // 添加鼠标悬停事件
+
+                    let audioElement; // 声明一个变量来存储音频元素
                     characterImage.addEventListener('mouseover', () => {
+                        // 创建 info 元素
                         const tooltipTitle = document.getElementById('tooltip-title');
                         const tooltipContent = document.getElementById('tooltip-content');
 
                         tooltipTitle.textContent = character.name;
                         tooltipContent.textContent = character.info;
                         tooltip.style.display = 'block';
+
+                        // 创建 audio 元素
+                        audioElement = new Audio(character.audioSrc); // 创建音频元素
+                        audioElement.play(); // 播放音频
                     });
 
-                    // characterImage.addEventListener('mouseout', () => {
-                    //     const tooltip = document.getElementById('tooltip');
-                    //     tooltip.style.display = 'none';
-                    // });
+                    characterImage.addEventListener('mouseout', () => {
+                        const tooltip = document.getElementById('tooltip');
+                        tooltip.style.display = 'none';
+
+                        if (audioElement) {
+                            audioElement.pause(); // 暂停音频
+                        }
+                    });
 
                     // 监听鼠标滚轮事件
                     characterContainer.addEventListener('wheel', (e) => {
