@@ -1,46 +1,89 @@
 {
     "characters": [
         {
+            "name": "雪菜 setsuna",
+            "info": "从今以后, 也会一直在一起吧?",
+            "height": 162,
+            "imageSrc": "images/setsuna.webp",
+            "audioSrc": [
+                "audios/setsuna.ogg",
+                "audios/white-album.ogg"
+            ]
+        },
+        {
+            "name": "冬马和纱 kazusa",
+            "info": "为什么你会这么熟练啊! 你和雪菜...到底吻过多少次了啊!?",
+            "height": 168,
+            "imageSrc": "images/kazusa.webp",
+            "audioSrc": [
+                "audios/kazusa.ogg",
+                "audios/kokorowa.mp3"
+            ]
+        },
+        {
             "name": "白井黑子 kuroko",
             "height": 152,
             "imageSrc": "images/kuroko.png",
-            "audioSrc": "audios/kuroko.mp3",
-            "info": "ジャッジメントですの(夹击妹抖desino)!  我乃风纪委员!"
+            "audioSrc": [
+                "audios/kuroko.mp3"
+            ],
+            "info": "ジャッジメントですの  (夹击妹抖desino) !"
         },
         {
-            "name": "御坂美琴 misaka mikoto",
+            "name": "御坂美琴 misaka mikoto / 哔哩哔哩 ビリビリ",
             "height": 161,
             "imageSrc": "images/mikoto.webp",
-            "info": "君の指先を舞ってる電光は、私の一生変わらない信仰であり、このレールガンだけが永遠に生きてる！外号: 哔哩哔哩（ビリビリ）."
+            "audioSrc": [
+                "audios/kuroko.mp3"
+            ],
+            "info": "君の指先を舞ってる電光は、私の一生変わらない信仰であり、このレールガンだけが永遠に生きてる！"
         },
         {
             "name": "丛雨 ムラサメ murasame",
             "height": 146,
             "imageSrc": "images/murasame.png",
             "info": "500岁丛雨会不熟练地使用古日语的语法念完版权声明，并且在念完后哀叹一句“真长啊，念得累死了”。",
-            "audioSrc": "audios/murasame.ogg"
+            "audioSrc": [
+                "audios/murasame.ogg",
+                "audios/murasame.mp3"
+            ]
         },
         {
             "name": "茉子 mako",
             "height": 167,
-            "imageSrc": "images/mako.png"
+            "imageSrc": "images/mako.png",
+            "audioSrc": [
+                "",
+                "audios/senrenbanka.mp3"
+            ]
         },
         {
             "name": "小春 koharu",
-            "height": 160,
+            "height": 158,
             "imageSrc": "images/koharu.png",
-            "audioSrc": "audios/koharu.ogg"
+            "audioSrc": [
+                "audios/koharu.ogg",
+                "audios/senrenbanka.mp3"
+            ]
         },
         {
             "name": "芳乃 yoshino",
             "height": 163,
-            "imageSrc": "images/yoshino.png"
+            "imageSrc": "images/yoshino.png",
+            "audioSrc": [
+                "",
+                "audios/senrenbanka.mp3"
+            ]
         },
         {
             "name": "宁宁 nene",
             "info": "圆桌骑士",
             "height": 163,
-            "imageSrc": "images/nene.png"
+            "imageSrc": "images/nene.png",
+            "audioSrc": [
+                "audios/nene.wav",
+                "audios/sabbat.mp3"
+            ]
         }
     ]
 }

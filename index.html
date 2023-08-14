@@ -15,6 +15,12 @@
         <h1 id="tooltip-title" style=" text-align: center;"></h1>
         <h2 id="tooltip-content" style=" text-align: center;"></h2>
     </div>
+    <!-- 添加背景音乐播放按钮和音乐信息 -->
+    <div id="backgroundMusicControls"
+        style="position: fixed; bottom: 10px; left: 10px; background: rgba(0, 0, 0, 0.7); padding: 5px; display: none;">
+        <button id="backgroundPlayButton">播放</button>
+        <span id="backgroundMusicName" style="color: white; margin-left: 5px;"></span>
+    </div>
 
     <script>
         // 获取角色数据
@@ -23,6 +29,10 @@
             .then(data => {
                 const characterContainer = document.getElementById('characterContainer');
                 const characters = data.characters;
+
+                let audioElement; // 声明一个变量来存储音频元素
+                let currentBackgroundMusic; //
+
 
                 // 遍历角色数据并在characterContainer > characterDiv > characterImage, characterInfo
                 characters.forEach(character => {
@@ -39,7 +49,8 @@
 
                     // 添加鼠标悬停事件
 
-                    let audioElement; // 声明一个变量来存储音频元素
+
+
                     characterImage.addEventListener('mouseover', () => {
                         // 创建 info 元素
                         const tooltipTitle = document.getElementById('tooltip-title');
@@ -50,8 +61,17 @@
                         tooltip.style.display = 'block';
 
                         // 创建 audio 元素
-                        audioElement = new Audio(character.audioSrc); // 创建音频元素
+                        audioElement = new Audio(character.audioSrc[0]); // 创建音频元素
                         audioElement.play(); // 播放音频
+                    });
+
+                    characterImage.addEventListener('click', () => {
+                        if (currentBackgroundMusic) {
+                            currentBackgroundMusic.pause();
+                        }
+
+                        currentBackgroundMusic = new Audio(character.audioSrc[1]);
+                        currentBackgroundMusic.play();
                     });
 
                     characterImage.addEventListener('mouseout', () => {
@@ -61,7 +81,12 @@
                         if (audioElement) {
                             audioElement.pause(); // 暂停音频
                         }
+                        if (currentBackgroundMusic) {
+                            currentBackgroundMusic.pause(); // 暂停背景音乐
+                        }
+
                     });
+
 
                     // 监听鼠标滚轮事件
                     characterContainer.addEventListener('wheel', (e) => {
@@ -74,6 +99,8 @@
                     characterContainer.appendChild(characterDiv);
                 });
             });
+
+
     </script>
 </body>
 
