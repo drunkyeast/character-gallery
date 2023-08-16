@@ -25,7 +25,8 @@
             "height": 152,
             "imageSrc": "images/kuroko.png",
             "audioSrc": [
-                "audios/kuroko.mp3"
+                "audios/kuroko.mp3",
+                "audios/railgun.mp3"
             ],
             "info": "ジャッジメントですの  (夹击妹抖desino) !"
         },
@@ -34,7 +35,8 @@
             "height": 161,
             "imageSrc": "images/mikoto.webp",
             "audioSrc": [
-                "audios/kuroko.mp3"
+                "audios/kuroko.mp3",
+                "audios/railgun.mp3"
             ],
             "info": "君の指先を舞ってる電光は、私の一生変わらない信仰であり、このレールガンだけが永遠に生きてる！"
         },
