@@ -12,7 +12,7 @@
         },
         {
             "name": "冬马和纱 kazusa",
-            "info": "为什么你会这么熟练啊! 你和雪菜...到底吻过多少次了啊!?",
+            "info": "为什么你会这么熟练啊!",
             "height": 168,
             "imageSrc": "images/kazusa.webp",
             "audioSrc": [
@@ -38,13 +38,13 @@
                 "audios/mikoto.mp3",
                 "audios/railgun.mp3"
             ],
-            "info": "君の指先を舞ってる電光は、私の一生変わらない信仰であり、このレールガンだけが永遠に生きてる！"
+            "info": "不准叫我哔哩哔哩,我的名字叫御坂美琴."
         },
         {
             "name": "丛雨 ムラサメ murasame",
             "height": 146,
             "imageSrc": "images/murasame.png",
-            "info": "500岁丛雨会不熟练地使用古日语的语法念完版权声明，并且在念完后哀叹一句“真长啊，念得累死了”。",
+            "info": "500岁丛雨会不熟练地使用古日语的语法念完版权声明，并且在念完后哀叹一句“真长啊，念得累死了”.",
             "audioSrc": [
                 "audios/murasame.ogg",
                 "audios/murasame.mp3"
