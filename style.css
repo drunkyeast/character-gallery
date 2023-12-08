@@ -21,7 +21,7 @@
 #characterContainer::before {
     content: "";
     background-image: url("images/bg.png");
-    opacity: 0.5; /* 设置背景图片的透明度为50% */
+    opacity: 0.8; /* 设置背景图片的透明度为50% */
     top: 0;
     left: 0;
     bottom: 0;
