@@ -31,21 +31,32 @@
             "info": "ジャッジメントですの  (夹击妹抖desino) !"
         },
         {
-            "name": "加藤惠 katou megumi",
-            "height": 165,
-            "imageSrc": "images/megumi.png",
+            "name": "御坂美琴 misaka mikoto / 哔哩哔哩 ビリビリ",
+            "height": 161,
+            "imageSrc": "images/mikoto.webp",
             "audioSrc": [
+                "audios/mikoto.mp3",
+                "audios/railgun.mp3"
             ],
-            "info": "春天里的一天，我和“命运”邂逅了……"
+            "info": "不准叫我哔哩哔哩,我的名字叫御坂美琴."
         },
         {
             "name": "丛雨 ムラサメ murasame",
             "height": 146,
             "imageSrc": "images/murasame.png",
-            "info": "500岁的粽子精.",
+            "info": "500岁丛雨会不熟练地使用古日语的语法念完版权声明，并且在念完后哀叹一句“真长啊，念得累死了”.",
             "audioSrc": [
                 "audios/murasame.ogg",
                 "audios/murasame.mp3"
+            ]
+        },
+        {
+            "name": "茉子 mako",
+            "height": 167,
+            "imageSrc": "images/mako.png",
+            "audioSrc": [
+                "",
+                "audios/senrenbanka.mp3"
             ]
         },
         {
@@ -54,6 +65,15 @@
             "imageSrc": "images/koharu.png",
             "audioSrc": [
                 "audios/koharu.ogg",
+                "audios/senrenbanka.mp3"
+            ]
+        },
+        {
+            "name": "芳乃 yoshino",
+            "height": 163,
+            "imageSrc": "images/yoshino.png",
+            "audioSrc": [
+                "",
                 "audios/senrenbanka.mp3"
             ]
         },

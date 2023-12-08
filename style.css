@@ -10,13 +10,26 @@
 #characterContainer {
     display: flex;
     align-items: flex-end;
-    height: 600px;
+    height: 560px;
     white-space: nowrap;
-    background-image: url("images/bg.png");
     background-repeat: repeat;
     overflow: auto;
     /* 添加滚动条，当内容超过容器高度时 */
 }
+
+
+#characterContainer::before {
+    content: "";
+    background-image: url("images/bg.png");
+    opacity: 0.5; /* 设置背景图片的透明度为50% */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; /* 将 ::before 伪元素放置在容器底部 */
+}
+
 
 .character {
     margin: 0;
