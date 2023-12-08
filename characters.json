@@ -32,9 +32,12 @@
         },
         {
             "name": "加藤惠 katou megumi",
-            "height": 165,
+            "height": 167,
             "imageSrc": "images/megumi.png",
             "audioSrc": [
+		"audios/null.mp3",
+		"audios/megumi.m4a"
+
             ],
             "info": "春天里的一天，我和“命运”邂逅了……"
         },
