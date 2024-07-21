@@ -41,6 +41,17 @@
             ],
             "info": "春天里的一天，我和“命运”邂逅了……"
         },
+	{
+            "name": "月火 tsukihi",
+            "height": 167,
+            "imageSrc": "images/tsukihi.png",
+            "audioSrc": [
+                "audios/tsukihi2.aac",
+                "audios/baijindisco.m4a"
+
+            ],
+            "info": "白金火大 プラチナむかつく!"
+        },
         {
             "name": "丛雨 ムラサメ murasame",
             "height": 146,
@@ -49,6 +60,15 @@
             "audioSrc": [
                 "audios/murasame.ogg",
                 "audios/murasame.mp3"
+            ]
+        },
+	{
+            "name": "茉子 mako",
+            "height": 167,
+            "imageSrc": "images/mako.png",
+            "audioSrc": [
+                "",
+                "audios/senrenbanka.mp3"
             ]
         },
         {
